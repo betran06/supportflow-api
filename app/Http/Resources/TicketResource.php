@@ -23,7 +23,7 @@ class TicketResource extends JsonResource
             'status' => $this->status,
             'priority' => $this->priority,
             'created_at' => $this->created_at,
-            'updated_at' => $this->update_at,
+            'updated_at' => $this->updated_at,
             'completed_at' => $this->completed_at,
             'ticket_replies' => TicketReplyResource::collection($this->ticketReplies)
         ];

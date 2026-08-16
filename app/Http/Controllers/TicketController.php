@@ -62,7 +62,7 @@ class TicketController extends Controller
 
             if(!$ticket){
                 return response()->json([
-                    'meesage' => 'Tiket tidak ditemukan'
+                    'message' => 'Tiket tidak ditemukan'
                 ], 404);
             }
 
